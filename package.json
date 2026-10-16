@@ -1,0 +1,10 @@
+{
+  "name": "jenkins-node-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "mkdir -p dist && cp index.js dist/app.js && echo 'build complete' > dist/build-info.txt"
+  },
+  "license": "ISC"
+}
